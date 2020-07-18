@@ -1,9 +1,9 @@
-<h1>筋トレアプリ</h1>
+<h1>Sample App</h1>
 
-<p>こんにちは <%= @user.name %> さん,</p>
+<p>Hi <%= @user.name %>,</p>
 
 <p>
-筋肉の世界へようこそ！こちらのリンクをクリックしてアカウントを有効化してください:
+Welcome to the Sample App! Click on the link below to activate your account:
 </p>
 
 <%= link_to "Activate", edit_account_activation_url(@user.activation_token,
